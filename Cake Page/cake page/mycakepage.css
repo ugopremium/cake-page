@@ -1,0 +1,71 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #098337;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+button.lets-chat {
+  background-color: #ffa600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.lets-chat:hover {
+  background-color: #d48800;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.cake-images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cake-images img {
+  width: 200px; 
+  margin: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #f3030f;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
